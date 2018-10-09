@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cv form</title>
+</head>
+<body>
+	<form method="post" action="">
+		<fieldset>
+			<legend><h2><i>CV Form</i></h2></legend>
+		<fieldset id="picture">
+			<legend><h3>picture</h3></legend>
+			Go to-- <a href="#Personal">personal info,</a>
+			        <a href="#Educational">Educational info,</a>
+			        <a href="#food">Favorite food,</a>
+			        <a href="#news">Favorite news</a><br><br>
+			Select a file: <input type="file" name="picture">
+		</fieldset><br>
+		<fieldset id="Personal">
+			<legend><h3>Personal info</h3></legend>
+			Go to-- <a href="#picture">picture,</a>
+			        <a href="#Educational">Educational info,</a>
+			        <a href="#food">Favorite food,</a>
+			        <a href="#news">Favorite news</a><br><br>
+			name : <input type="text" name="name" placeholder="Enter your name" required autofocus><br><br>
+			email : <input type="email" name="email" placeholder="Enter your email" required=""><br><br>
+			phone : <input type="tel" name="phone" placeholder="***-***-****" required><br><br>
+			date of birth : <input type="date" name="date"><br><br>
+			time of birth : <input type="time" name="time"><br><br>
+			birth date-time : <input type="datetime-local" name="bdt">
+		</fieldset><br>
+		<fieldset id="Educational">
+			<legend><h3>Educational info</h3></legend>
+			Go to-- <a href="#picture">picture,</a>
+			        <a href="#personal">personal info,</a>
+			        <a href="#food">Favorite food,</a>
+			        <a href="#news">Favorite news</a><br><br>
+			<fieldset><legend><strong>school</strong></legend>
+			 secondary school : <input type="text" name="school" placeholder="name school"><br><br>
+			email : <input type="email" name="emailSchool" placeholder="school@example"><br><br>
+			telphone : <input type="tel" name="telphoneSchool" placeholder="***-***-****"><br><br>
+			website : <input type="url" name="website" placeholder="http:\\example" required><br><br>
+			your rate : <input type="number" name="number" min="0" max="100">
+		</fieldset><br>
+		<fieldset>
+			<legend><strong>university</strong></legend>
+			university name : <input type="text" name="university" placeholder="name university"><br><br>
+			email : <input type="email" name="emailUn" placeholder="university@example"><br><br>
+			telphone : <input type="tel" name="telphoneUn" placeholder="***-***-****"><br><br>
+			website : <input type="url" name="websiteUn" placeholder="http:\\" required><br><br>
+			your rate : <input type="number" name="numberUn" min="0" max="100">
+		</fieldset><br>
+	</fieldset><br>
+		<fieldset id="food">
+			<legend><h3>Favorite food</h3></legend>
+			Go to-- <a href="#picture">picture,</a>
+			        <a href="#personal">personal info,</a>
+			        <a href="#Educational">Educational info,</a>
+			        <a href="#news">Favorite news</a><br><br>
+			food dishes 1 : <input type="text" name="dishes1"><br><br>
+			url : <input type="url" name="dish1" placeholder="http:\\"><br><br><br>
+			food dishes 2 : <input type="text" name="dishes2"><br><br>
+			url : <input type="url" name="dish2" placeholder="http:\\"><br>
+		</fieldset><br>
+		<fieldset id="news">
+			<legend><h3>Favorite news</h3></legend>
+			Go to-- <a href="#picture">picture,</a>
+			        <a href="#personal">personal info,</a>
+			        <a href="#Educational">Educational info,</a>
+			        <a href="#food">Favorite food</a><br><br>
+			news 1 name : <input type="text" name="news1"><br><br>
+			url : <input type="url" name="new1" placeholder="http:\\"><br><br><br>
+			news 2 name : <input type="text" name="news2"><br><br>
+			url : <input type="url" name="new2" placeholder="http:\\"><br>
+		</fieldset><br>
+		<input type="submit" name="submit" value="submit">
+		<input type="reset" name="reset" value="clear">
+	</fieldset>
+		
+	</form>
+
+</body>
+</html>
